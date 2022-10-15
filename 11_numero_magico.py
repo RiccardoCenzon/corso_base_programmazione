@@ -8,3 +8,5 @@ while i <= 10:
             break
         else:
             print("Game over!")
+A=input("Press any key to exit.")
+
