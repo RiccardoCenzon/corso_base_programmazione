@@ -6,11 +6,12 @@ if(numero_operazione==1):
 if(numero_operazione==2):
     output=numero_1-numero_2
 if(numero_operazione==3):
-    output=numero_1*numero_2
-if(numero_operazione==4):
-    output=numero_1/numero_2 
     if(numero_2==0):
         output=("Non puoi dividere per zero!")
+    else:
+        output=numero_1/numero_2
+if(numero_operazione==4):
+    output=numero_1*numero_2
 if(numero_operazione<1):
     output=numero_1+numero_2
 if(numero_operazione>4):
