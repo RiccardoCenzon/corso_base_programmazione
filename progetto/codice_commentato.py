@@ -214,4 +214,5 @@ while True:
     if(continuare!="S" and continuare!="N"):
           print(errore_1 )
     if(continuare=="N"):
-         quit()
+        print("Grazie per aver utilizzato il programma!")
+        quit()
